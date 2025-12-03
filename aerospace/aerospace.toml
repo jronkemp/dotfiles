@@ -160,10 +160,10 @@ alt-w = 'focus up'
 alt-d = 'focus right'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move
-alt-shift-d = 'move left'
+alt-shift-a = 'move left'
 alt-shift-s = 'move down'
 alt-shift-w = 'move up'
-alt-shift-a = 'move right'
+alt-shift-d = 'move right'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#resize
 alt-cmd-minus = 'resize smart -100'
@@ -174,12 +174,14 @@ alt-1 = 'workspace 1'
 alt-2 = 'workspace 2'
 alt-3 = 'workspace 3'
 alt-4 = 'workspace 4'
+alt-5 = 'workspace 5'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-cmd-1 = 'move-node-to-workspace 1 --focus-follows-window'
 alt-cmd-2 = 'move-node-to-workspace 2 --focus-follows-window'
 alt-cmd-3 = 'move-node-to-workspace 3 --focus-follows-window'
 alt-cmd-4 = 'move-node-to-workspace 4 --focus-follows-window'
+alt-cmd-5 = 'move-node-to-workspace 5 --focus-follows-window'
 
 alt-tab = 'workspace-back-and-forth'
 alt-cmd-q = 'move-workspace-to-monitor prev'
@@ -213,8 +215,8 @@ alt-w = ['exec-and-forget open -a /Applications/WezTerm.app', 'mode main']
 
 [workspace-to-monitor-force-assignment]
 1 = '^Built-in.*$'
-2 = '^DELL U.*$'
-3 = '^DELL S.*$'
+2 = 'main'
+3 = 'secondary'
 #     4 = '^dell$'
 #     5 = 'main'
 #     6 = '^elgato$'
